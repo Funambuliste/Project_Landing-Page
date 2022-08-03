@@ -1,11 +1,68 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Landing Page </title>
 </head>
 <body>
     <!--structure composée de 6 boites empilées verticalement-->
+    <div class="container-global">
+        <!--Boite 1 : menu/header : structure composée de 4 boites alignées : un logo aligne à gauche et 3 liens alignés à droite-->
+        <div class="container-header">
+            <div class="logo">Header Logo</div>
+            <div class="right_link">
+                <ul>
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link tree</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Boite 2 : structure à 2 boites alignées : une sub-structure et une image-->
+        <div class="container-1">
+            <!--Boite 2-1 : structures à 3 boites empilees-->
+            <div class="container-1-left">
+                <h1>This website is awesome.</h1>
+                <div class="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.'</div>
+                <button class="sign-up">Sign up</button>
+            </div>
+            <!--image-->
+            <img src="#" alt="this is a place holder for an image"
+        </div>
+        <!--Boite 3 : structure a 2 boites empilees : un titre et une sub-structure-->
+        <div class="container-2">
+            <h2>Some random information.</h2>
+            <!--Boite 3-2 : structure a 4 boites alignees composées d'une image chevauchant un texte-->
+            <div class="container-2-bottom">
+                <img src="#" alt="1">
+                <div class="text">This is some subtext under an illustration or image.</div>
+                <img src="#" alt="2">
+                <div class="text">This is some subtext under an illustration or image.</div>
+                <img src="#" alt="3">
+                <div class="text">This is some subtext under an illustration or image.</div>
+                <img src="#" alt="4">
+                <div class="text">This is some subtext under an illustration or image.</div>
+            </div>
+        </div>
+        <!--Boite 4 : une citation -->
+        <div class="container-3">
+            <div class="citation">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling space, or maybe peopl will actually read it. Who knows ? All I know is that it looks nice.'</div>
+            <div class="source">-Thor, God of Thunder</div>
+        </div>
+        <!--Boite 5 : structure à 2 boites alignées : un texte et un bouton -->
+        <div class="container-4">
+            <!--Boite 5-left : structure a 2 boites empilees : un texte et un message-->
+            <div class="container-4-left">
+                <h3>Call to action! It's time!</h3>
+                <div class="message">Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <button class="sign-up">Sign up</button>
+        </div>
+        <!--Boite 6 : footer-->
+        <div class="footer">
+            Copyright @ The Odin Proect 2021
+        </div>
+    </div>
 </body>
 </html>
