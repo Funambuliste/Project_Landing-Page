@@ -9,30 +9,37 @@ body
 .container-header{
     background-color: #1F2937;
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
 }
-
+   
 .right-link{
     display: flex;
-
 }
 
 .container-1{
     display: flex;
     background-color: #1F2937;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 10px 10px 10px;
+
 }
 
 .container-1-left{
     display: flex;
     flex-direction: column;
+    width: 45%;
 }
 
 .container-2{
     display: flex;
     flex-direction : column;
     align-items: center;
-
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .container-2-bottom{
@@ -55,12 +62,19 @@ body
     background-color: #e5e7eb;
     font-size: 36px;
     color: #1F2937;
+    margin-top: 10px;
+    padding: 50px;
+    gap: 10px;
 }
 
 .container-4{
     display: flex;
     background-color: #3882f6;
-
+    color: #f9faf8;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5%;    
+    align-items: center;
 }
 
 .container-4-left{
@@ -70,7 +84,7 @@ body
 
 .footer{
     background-color: #1F2937;
-
+    text-align: center; 
 }
 
 .logo{
@@ -104,6 +118,8 @@ ul{
 
 a{
     margin: 5px;
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 img{
@@ -112,21 +128,21 @@ img{
     border-color: #3882f6;
     justify-content: center;
     padding: 5px;
-    flex: 0 0;
+    margin: 5px;    
 }
 
 .big-image{
-    width: 200px;
+    width: 45%;
     height:auto;
 }
 
 button{
     background-color: #3882f6;
-    color: #f9faf8
-}
-
-.signup{
-
+    color: #f9faf8;
+    width: 100px;
+    height: 20px;
+    border-color: #e5e7eb;
+    margin: 5px;
 }
 
 .subtext{
@@ -141,8 +157,13 @@ button{
 .citation{
     font-style: italic;
     font-weight: lighter;
+    width: 80%;
+    align-self: center;
 }
 
 .source{
     font-weight: bold;
+    text-align: right;
+    width: 80%;
+    padding-right: 0px;
 }
