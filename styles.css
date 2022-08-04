@@ -125,10 +125,15 @@ a{
 img{
     width: 100px;
     height: 100px;
-    border-color: #3882f6;
     justify-content: center;
     padding: 5px;
-    margin: 5px;    
+    margin: 5px;
+}
+
+.container-2-bottom-image>img{
+    border: 1px solid #3882f6;
+    padding: 0px;
+    border-radius: 15px;
 }
 
 .big-image{
@@ -143,6 +148,7 @@ button{
     height: 20px;
     border-color: #e5e7eb;
     margin: 5px;
+    vertical-align: middle;
 }
 
 .subtext{
