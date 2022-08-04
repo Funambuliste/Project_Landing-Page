@@ -3,11 +3,13 @@
 /*style global dela page*/
 body
 {
+    overflow-wrap: break-word;
 }
 
 .container-header{
     background-color: #1F2937;
     display: flex;
+
 }
 
 .right-link{
@@ -17,7 +19,8 @@ body
 
 .container-1{
     display: flex;
-    background-color: #1F2937
+    background-color: #1F2937;
+    align-items: center;
 }
 
 .container-1-left{
@@ -28,13 +31,22 @@ body
 .container-2{
     display: flex;
     flex-direction : column;
-    
+    align-items: center;
 
 }
 
 .container-2-bottom{
     display: flex;
-    
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content:center;    
+}
+
+.container-2-bottom-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
 }
 
 .container-3{
@@ -64,34 +76,48 @@ body
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    padding: 5px;
 }
 
 h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    padding: 5px;
 }
 
 h2{
     color: #1f2937;
     font-size: 36px;
     font-weight: extra-bold;
+    padding: 5px;
 }
 
 h3{
-
+    padding: 5px;
 }
 
 ul{
     display: flex;
+    list-style-type: none;
 }
 
 a{
-
+    margin: 5px;
 }
 
 img{
+    width: 100px;
+    height: 100px;
+    border-color: #3882f6;
+    justify-content: center;
+    padding: 5px;
+    flex: 0 0;
+}
 
+.big-image{
+    width: 200px;
+    height:auto;
 }
 
 button{
@@ -109,7 +135,7 @@ button{
 }
 
 .text{
-
+    text-align: center;    
 }
 
 .citation{
